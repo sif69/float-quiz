@@ -31,40 +31,7 @@ Open `http://localhost:5173`
 
 ---
 
-## Deploy to Vercel
-
-### Option 1 — Vercel CLI
-```bash
-npm install -g vercel
-vercel
-```
-
-### Option 2 — GitHub + Vercel Dashboard
-1. Push this repo to GitHub:
-   ```bash
-   git init
-   git add .
-   git commit -m "initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/float-quiz.git
-   git push -u origin main
-   ```
-2. Go to [vercel.com](https://vercel.com) → New Project
-3. Import your GitHub repo
-4. Framework: **Vite** (auto-detected)
-5. Click **Deploy** ✅
-
----
-
-## Deploy to Render
-
-1. Push to GitHub (same as above)
-2. Go to [render.com](https://render.com) → New → Static Site
-3. Connect your GitHub repo
-4. Build command: `npm run build`
-5. Publish directory: `dist`
-6. Click **Deploy** ✅
-
----
+## live link: https://float-quiz.onrender.com/
 
 ## Notes
 
